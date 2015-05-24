@@ -1,0 +1,334 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 202, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ..."
+FONT 8, "System"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,15,14,16,16
+END
+
+IDD_SNOWSS_DIALOG DIALOGEX 0, 0, 209, 77
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "SaverScreen"
+FONT 8, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,52,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,152,52,50,14
+    EDITTEXT        IDC_COUNT_EDIT,144,23,40,14,ES_AUTOHSCROLL
+    CONTROL         "Spin1",IDC_COUNT_SPIN,"msctls_updown32",UDS_ALIGNRIGHT | 
+                    UDS_ARROWKEYS,194,23,8,14
+    LTEXT           "Anzahl:",IDC_STATIC,107,26,30,8
+    CTEXT           "www.FreeGroup.de",IDC_STATIC,7,7,195,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CONDOM1             BITMAP  DISCARDABLE     "res\\condom101.bmp"
+IDB_CONDOM2             BITMAP  DISCARDABLE     "res\\condom102.bmp"
+IDB_CONDOM3             BITMAP  DISCARDABLE     "res\\condom103.bmp"
+IDB_CONDOM4             BITMAP  DISCARDABLE     "res\\condom104.bmp"
+IDB_CONDOM5             BITMAP  DISCARDABLE     "res\\condom105.bmp"
+IDB_CONDOM6             BITMAP  DISCARDABLE     "res\\condom106.bmp"
+IDB_CONDOM7             BITMAP  DISCARDABLE     "res\\condom107.bmp"
+IDB_CONDOM8             BITMAP  DISCARDABLE     "res\\condom108.bmp"
+IDB_FREE_LOGO           BITMAP  DISCARDABLE     "res\\Free71.bmp"
+IDB_PINK_CONDOM8        BITMAP  DISCARDABLE     "res\\pink_condom101.bmp"
+IDB_PINK_CONDOM2        BITMAP  DISCARDABLE     "res\\pink_condom102.bmp"
+IDB_PINK_CONDOM3        BITMAP  DISCARDABLE     "res\\pink_condom103.bmp"
+IDB_PINK_CONDOM4        BITMAP  DISCARDABLE     "res\\pink_condom104.bmp"
+IDB_PINK_CONDOM5        BITMAP  DISCARDABLE     "res\\pink_condom105.bmp"
+IDB_PINK_CONDOM6        BITMAP  DISCARDABLE     "res\\pink_condom106.bmp"
+IDB_PINK_CONDOM7        BITMAP  DISCARDABLE     "res\\pink_condom107.bmp"
+IDB_PINK_CONDOM1        BITMAP  DISCARDABLE     "res\\pink_condom108.bmp"
+IDB_REVERSE_CONDOM1     BITMAP  DISCARDABLE     "res\\reverse_condom101.bmp"
+IDB_REVERSE_CONDOM2     BITMAP  DISCARDABLE     "res\\reverse_condom102.bmp"
+IDB_REVERSE_CONDOM3     BITMAP  DISCARDABLE     "res\\reverse_condom103.bmp"
+IDB_REVERSE_CONDOM4     BITMAP  DISCARDABLE     "res\\reverse_condom104.bmp"
+IDB_REVERSE_CONDOM5     BITMAP  DISCARDABLE     "res\\reverse_condom105.bmp"
+IDB_REVERSE_CONDOM6     BITMAP  DISCARDABLE     "res\\reverse_condom106.bmp"
+IDB_REVERSE_CONDOM7     BITMAP  DISCARDABLE     "res\\reverse_condom107.bmp"
+IDB_REVERSE_CONDOM8     BITMAP  DISCARDABLE     "res\\reverse_condom108.bmp"
+IDB_UNDICHT_CONDOM1     BITMAP  DISCARDABLE     "res\\undicht_condom101.bmp"
+IDB_UNDICHT_CONDOM2     BITMAP  DISCARDABLE     "res\\undicht_condom102.bmp"
+IDB_UNDICHT_CONDOM3     BITMAP  DISCARDABLE     "res\\undicht_condom103.bmp"
+IDB_UNDICHT_CONDOM4     BITMAP  DISCARDABLE     "res\\undicht_condom104.bmp"
+IDB_UNDICHT_CONDOM5     BITMAP  DISCARDABLE     "res\\undicht_condom105.bmp"
+IDB_UNDICHT_CONDOM6     BITMAP  DISCARDABLE     "res\\undicht_condom106.bmp"
+IDB_UNDICHT_CONDOM7     BITMAP  DISCARDABLE     "res\\undicht_condom107.bmp"
+IDB_UNDICHT_CONDOM8     BITMAP  DISCARDABLE     "res\\undicht_condom108.bmp"
+IDB_ROTATE_CONDOM1      BITMAP  DISCARDABLE     "res\\rotate_condom101.bmp"
+IDB_ROTATE_CONDOM2      BITMAP  DISCARDABLE     "res\\rotate_condom102.bmp"
+IDB_ROTATE_CONDOM3      BITMAP  DISCARDABLE     "res\\rotate_condom103.bmp"
+IDB_ROTATE_CONDOM4      BITMAP  DISCARDABLE     "res\\rotate_condom104.bmp"
+IDB_ROTATE_CONDOM5      BITMAP  DISCARDABLE     "res\\rotate_condom105.bmp"
+IDB_ROTATE_CONDOM6      BITMAP  DISCARDABLE     "res\\rotate_condom106.bmp"
+IDB_ROTATE_CONDOM7      BITMAP  DISCARDABLE     "res\\rotate_condom107.bmp"
+IDB_ROTATE_CONDOM8      BITMAP  DISCARDABLE     "res\\rotate_condom108.bmp"
+IDB_BIG_CONDOM1         BITMAP  DISCARDABLE     "res\\big_condom101.bmp"
+IDB_BIG_CONDOM2         BITMAP  DISCARDABLE     "res\\big_condom102.bmp"
+IDB_BIG_CONDOM3         BITMAP  DISCARDABLE     "res\\big_condom103.bmp"
+IDB_BIG_CONDOM4         BITMAP  DISCARDABLE     "res\\big_condom104.bmp"
+IDB_BIG_CONDOM5         BITMAP  DISCARDABLE     "res\\big_condom105.bmp"
+IDB_BIG_CONDOM6         BITMAP  DISCARDABLE     "res\\big_condom106.bmp"
+IDB_BIG_CONDOM7         BITMAP  DISCARDABLE     "res\\big_condom107.bmp"
+IDB_BIG_CONDOM8         BITMAP  DISCARDABLE     "res\\big_condom108.bmp"
+IDB_RAKETE_CONDOM1      BITMAP  DISCARDABLE     "res\\rakete_condom101.bmp"
+IDB_RAKETE_CONDOM2      BITMAP  DISCARDABLE     "res\\rakete_condom102.bmp"
+IDB_RAKETE_CONDOM3      BITMAP  DISCARDABLE     "res\\rakete_condom103.bmp"
+IDB_RAKETE_CONDOM4      BITMAP  DISCARDABLE     "res\\rakete_condom104.bmp"
+IDB_RAKETE_CONDOM5      BITMAP  DISCARDABLE     "res\\rakete_condom105.bmp"
+IDB_RAKETE_CONDOM6      BITMAP  DISCARDABLE     "res\\rakete_condom106.bmp"
+IDB_RAKETE_CONDOM7      BITMAP  DISCARDABLE     "res\\rakete_condom107.bmp"
+IDB_RAKETE_CONDOM8      BITMAP  DISCARDABLE     "res\\rakete_condom108.bmp"
+IDB_SPERM1              BITMAP  DISCARDABLE     "res\\sperm1.bmp"
+IDB_SPERM2              BITMAP  DISCARDABLE     "res\\sperm2.bmp"
+IDB_SPERM3              BITMAP  DISCARDABLE     "res\\sperm3.bmp"
+IDB_SPERM4              BITMAP  DISCARDABLE     "res\\sperm4.bmp"
+IDB_SPERM5              BITMAP  DISCARDABLE     "res\\sperm5.bmp"
+IDB_SPERM6              BITMAP  DISCARDABLE     "res\\sperm6.bmp"
+IDB_SPERM7              BITMAP  DISCARDABLE     "res\\sperm7.bmp"
+IDB_SPERM8              BITMAP  DISCARDABLE     "res\\sperm8.bmp"
+IDB_EARTH01             BITMAP  DISCARDABLE     "res\\rthx-01.bmp"
+IDB_EARTH02             BITMAP  DISCARDABLE     "res\\rthx-02.bmp"
+IDB_EARTH03             BITMAP  DISCARDABLE     "res\\rthx-03.bmp"
+IDB_EARTH04             BITMAP  DISCARDABLE     "res\\rthx-04.bmp"
+IDB_EARTH05             BITMAP  DISCARDABLE     "res\\rthx-05.bmp"
+IDB_EARTH06             BITMAP  DISCARDABLE     "res\\rthx-06.bmp"
+IDB_EARTH07             BITMAP  DISCARDABLE     "res\\rthx-07.bmp"
+IDB_EARTH08             BITMAP  DISCARDABLE     "res\\rthx-08.bmp"
+IDB_EARTH09             BITMAP  DISCARDABLE     "res\\rthx-09.bmp"
+IDB_EARTH10             BITMAP  DISCARDABLE     "res\\rthx-10.bmp"
+IDB_EARTH11             BITMAP  DISCARDABLE     "res\\rthx-11.bmp"
+IDB_EARTH12             BITMAP  DISCARDABLE     "res\\rthx-12.bmp"
+IDB_EARTH13             BITMAP  DISCARDABLE     "res\\rthx-13.bmp"
+IDB_EARTH14             BITMAP  DISCARDABLE     "res\\rthx-14.bmp"
+IDB_EARTH15             BITMAP  DISCARDABLE     "res\\rthx-15.bmp"
+IDB_EARTH16             BITMAP  DISCARDABLE     "res\\rthx-16.bmp"
+IDB_EARTH17             BITMAP  DISCARDABLE     "res\\rthx-17.bmp"
+IDB_EARTH18             BITMAP  DISCARDABLE     "res\\rthx-18.bmp"
+IDB_EARTH19             BITMAP  DISCARDABLE     "res\\rthx-19.bmp"
+IDB_EARTH20             BITMAP  DISCARDABLE     "res\\rthx-20.bmp"
+IDB_EARTH21             BITMAP  DISCARDABLE     "res\\rthx-21.bmp"
+IDB_EARTH22             BITMAP  DISCARDABLE     "res\\rthx-22.bmp"
+IDB_EARTH23             BITMAP  DISCARDABLE     "res\\rthx-23.bmp"
+IDB_EARTH24             BITMAP  DISCARDABLE     "res\\rthx-24.bmp"
+IDB_EARTH25             BITMAP  DISCARDABLE     "res\\rthx-25.bmp"
+IDB_EARTH26             BITMAP  DISCARDABLE     "res\\rthx-26.bmp"
+IDB_EARTH27             BITMAP  DISCARDABLE     "res\\rthx-27.bmp"
+IDB_EARTH28             BITMAP  DISCARDABLE     "res\\rthx-28.bmp"
+IDB_EARTH29             BITMAP  DISCARDABLE     "res\\rthx-29.bmp"
+IDB_EARTH30             BITMAP  DISCARDABLE     "res\\rthx-30.bmp"
+IDB_EARTH31             BITMAP  DISCARDABLE     "res\\rthx-31.bmp"
+IDB_EARTH32             BITMAP  DISCARDABLE     "res\\rthx-32.bmp"
+IDB_EARTH33             BITMAP  DISCARDABLE     "res\\rthx-33.bmp"
+IDB_EARTH34             BITMAP  DISCARDABLE     "res\\rthx-34.bmp"
+IDB_EARTH35             BITMAP  DISCARDABLE     "res\\rthx-35.bmp"
+IDB_EARTH36             BITMAP  DISCARDABLE     "res\\rthx-36.bmp"
+IDB_FADENKREUZ          BITMAP  DISCARDABLE     "res\\fadenkre.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+IDB_EX_CONDOM08         BITMAP  DISCARDABLE     "res\\explore_condom108.bmp"
+IDB_EX_CONDOM02         BITMAP  DISCARDABLE     "res\\explore_condom102.bmp"
+IDB_EX_CONDOM03         BITMAP  DISCARDABLE     "res\\explore_condom103.bmp"
+IDB_EX_CONDOM04         BITMAP  DISCARDABLE     "res\\explore_condom104.bmp"
+IDB_EX_CONDOM05         BITMAP  DISCARDABLE     "res\\explore_condom105.bmp"
+IDB_EX_CONDOM06         BITMAP  DISCARDABLE     "res\\explore_condom106.bmp"
+IDB_EX_CONDOM07         BITMAP  DISCARDABLE     "res\\explore_condom107.bmp"
+IDB_EX_CONDOM01         BITMAP  DISCARDABLE     "res\\explore_condom101.bmp"
+IDB_EX_CONDOM16         BITMAP  DISCARDABLE     "res\\explore_condom116.bmp"
+IDB_EX_CONDOM10         BITMAP  DISCARDABLE     "res\\explore_condom110.bmp"
+IDB_EX_CONDOM11         BITMAP  DISCARDABLE     "res\\explore_condom111.bmp"
+IDB_EX_CONDOM12         BITMAP  DISCARDABLE     "res\\explore_condom112.bmp"
+IDB_EX_CONDOM13         BITMAP  DISCARDABLE     "res\\explore_condom113.bmp"
+IDB_EX_CONDOM14         BITMAP  DISCARDABLE     "res\\explore_condom114.bmp"
+IDB_EX_CONDOM15         BITMAP  DISCARDABLE     "res\\explore_condom115.bmp"
+IDB_EX_CONDOM09         BITMAP  DISCARDABLE     "res\\explore_condom109.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SNOWSS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 202
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+        HORZGUIDE, 30
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Englisch (USA) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\SaverScreen.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\SaverScreen.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Saver\0"
+            VALUE "CompanyName", "FREE\0"
+            VALUE "FileDescription", "Saver\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Saver\0"
+            VALUE "LegalCopyright", "Andreas Herz 1999\0"
+            VALUE "OriginalFilename", "SaverScreen.scr\0"
+            VALUE "ProductName", "SaverScreen\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About ..."
+END
+
+#endif    // Englisch (USA) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\SaverScreen.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

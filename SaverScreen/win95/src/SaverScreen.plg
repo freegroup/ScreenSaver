@@ -1,0 +1,77 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SaverScreen - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINNT\TEMP\RSP756.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /I "C:\Qt\include" /I "_C:\Qt\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "QT_DLL" /D "QT_THREAD_SUPPORT" /FR"Debug/" /Fp"Debug/SaverScreen.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\herz\Projects\SaverScreen\AnimatedObject.cpp"
+"C:\Users\herz\Projects\SaverScreen\animation.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingBigCondomBitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingCondom2Bitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingCondomBitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingEarthBitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingRaketeCondomBitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingReverseCondomBitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingRotateCondomBitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingSpermBitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\FlyingUndichtCondomBitmap.cpp"
+"C:\Users\herz\Projects\SaverScreen\main.cpp"
+"C:\Users\herz\Projects\SaverScreen\moc_SaverScreenWindow.cpp"
+"C:\Users\herz\Projects\SaverScreen\ProcTrace.cpp"
+"C:\Users\herz\Projects\SaverScreen\ranadd.cpp"
+"C:\Users\herz\Projects\SaverScreen\SaverScreenWindow.cpp"
+]
+Creating command line "cl.exe @C:\WINNT\TEMP\RSP756.tmp" 
+Creating temporary file "C:\WINNT\TEMP\RSP757.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib wsock32.lib C:\Qt\lib\qt-mt300.lib C:\Qt\lib\qtmain.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SaverScreen_debug.pdb" /debug /machine:I386 /out:"SaverScreen_debug.scr" /pdbtype:sept 
+.\Debug\AnimatedObject.obj
+.\Debug\animation.obj
+.\Debug\FlyingBigCondomBitmap.obj
+.\Debug\FlyingCondom2Bitmap.obj
+.\Debug\FlyingCondomBitmap.obj
+.\Debug\FlyingEarthBitmap.obj
+.\Debug\FlyingRaketeCondomBitmap.obj
+.\Debug\FlyingReverseCondomBitmap.obj
+.\Debug\FlyingRotateCondomBitmap.obj
+.\Debug\FlyingSpermBitmap.obj
+.\Debug\FlyingUndichtCondomBitmap.obj
+.\Debug\main.obj
+.\Debug\moc_SaverScreenWindow.obj
+.\Debug\ProcTrace.obj
+.\Debug\ranadd.obj
+.\Debug\SaverScreenWindow.obj
+]
+Creating command line "link.exe @C:\WINNT\TEMP\RSP757.tmp"
+<h3>Output Window</h3>
+Compiling...
+AnimatedObject.cpp
+animation.cpp
+FlyingBigCondomBitmap.cpp
+FlyingCondom2Bitmap.cpp
+FlyingCondomBitmap.cpp
+FlyingEarthBitmap.cpp
+FlyingRaketeCondomBitmap.cpp
+FlyingReverseCondomBitmap.cpp
+FlyingRotateCondomBitmap.cpp
+FlyingSpermBitmap.cpp
+FlyingUndichtCondomBitmap.cpp
+main.cpp
+moc_SaverScreenWindow.cpp
+ProcTrace.cpp
+ranadd.cpp
+SaverScreenWindow.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+SaverScreen_debug.scr - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

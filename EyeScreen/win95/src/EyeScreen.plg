@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: EyeScreen - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINNT\TEMP\RSP761.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /I "C:\Qt\include" /I "_C:\Qt\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "QT_DLL" /D "QT_THREAD_SUPPORT" /FR"Debug/" /Fp"Debug/EyeScreen.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\herz\Projects\EyeScreen\EyeScreenWindow.cpp"
+]
+Creating command line "cl.exe @C:\WINNT\TEMP\RSP761.tmp" 
+Creating temporary file "C:\WINNT\TEMP\RSP762.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib wsock32.lib C:\Qt\lib\qt-mt300.lib C:\Qt\lib\qtmain.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/EyeScreen_debug.pdb" /debug /machine:I386 /out:"EyeScreen_debug.scr" /pdbtype:sept 
+.\Debug\ActionObject.obj
+.\Debug\ActionObject001.obj
+.\Debug\ActionObject002.obj
+.\Debug\ActionObject003.obj
+.\Debug\ActionObject004.obj
+.\Debug\ActionObject005.obj
+.\Debug\ActionObject006.obj
+.\Debug\ActionObject007.obj
+.\Debug\ActionObject008.obj
+.\Debug\ActionObject009.obj
+.\Debug\ActionObject010.obj
+.\Debug\ActionObject011.obj
+.\Debug\ActionObject012.obj
+.\Debug\ActionObject013.obj
+.\Debug\ActionObject014.obj
+.\Debug\ActionObject015.obj
+.\Debug\ActionObject016.obj
+.\Debug\ActionObject017.obj
+.\Debug\ActionObjectWrapper.obj
+.\Debug\AnimatedObject.obj
+.\Debug\animation.obj
+.\Debug\EyeScreenWindow.obj
+.\Debug\main.obj
+.\Debug\moc_EyeScreenWindow.obj
+.\Debug\ranadd.obj
+]
+Creating command line "link.exe @C:\WINNT\TEMP\RSP762.tmp"
+<h3>Output Window</h3>
+Compiling...
+EyeScreenWindow.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+EyeScreen_debug.scr - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

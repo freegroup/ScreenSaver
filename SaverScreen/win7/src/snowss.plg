@@ -1,0 +1,49 @@
+--------------------Konfiguration: SaverScreen - Win32 Debug--------------------
+Begining build with project "D:\Projects\SaverScreen\snowss.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-Bit C/C++-Compiler für 80x86" with flags "/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp".\Debug/snowss.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o".\Debug/snowss.bsc" "
+			"COFF-Linker für 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:".\Debug/SaverScreen.pdb" /debug /machine:I386 /out:".\SaverScreen.scr" "
+			"Benutzerdefiniertes Erstellen" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINNT40\RSP34D.tmp" with contents </nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp".\Debug/snowss.pch" /Yu"stdafx.h" /Fo".\Debug/" /Fd".\Debug/" /FD /c 
+"D:\Projects\SaverScreen\TransparentBitmap.cpp"
+>
+Creating command line "cl.exe @C:\WINNT40\RSP34D.tmp" 
+Creating temp file "C:\WINNT40\RSP34E.tmp" with contents </nologo /subsystem:windows /incremental:yes /pdb:".\Debug/SaverScreen.pdb" /debug /machine:I386 /out:".\SaverScreen.scr" 
+.\Debug\AnimatedBitmap.obj
+.\Debug\FlyingBigCondomBitmap.obj
+.\Debug\FlyingBurstCondomBitmap.obj
+.\Debug\FlyingCondom2Bitmap.obj
+.\Debug\FlyingCondomBitmap.obj
+.\Debug\FlyingEarthBitmap.obj
+.\Debug\FlyingRaketeCondomBitmap.obj
+.\Debug\FlyingReverseCondomBitmap.obj
+.\Debug\FlyingRotateCondomBitmap.obj
+.\Debug\FlyingSpermBitmap.obj
+.\Debug\FlyingUndichtCondomBitmap.obj
+.\Debug\NumEdit.obj
+.\Debug\NumSpinCtrl.obj
+.\Debug\ranadd.obj
+.\Debug\ShowWnd.obj
+.\Debug\snowss.obj
+.\Debug\snowssDlg.obj
+.\Debug\SnowWnd.obj
+.\Debug\ssapp.obj
+.\Debug\sswnd.obj
+.\Debug\StdAfx.obj
+.\Debug\TransparentBitmap.obj
+.\snowss.res>
+Creating command line "link.exe @C:\WINNT40\RSP34E.tmp" 
+Kompilierung läuft...
+TransparentBitmap.cpp
+Linker-Vorgang läuft...
+
+
+
+SaverScreen.scr - 0 Fehler, 0 Warnung(en)
